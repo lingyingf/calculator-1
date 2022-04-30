@@ -10,9 +10,8 @@ while True:
     if "q" in tokens:
         print("You will exit.")
         break
-
+    
     elif len(tokens) < 2:
-        print("Not enough inputs.")
         continue
 
     operator = tokens[0]
